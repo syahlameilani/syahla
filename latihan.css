@@ -1,0 +1,221 @@
+.body{
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: black;
+  padding: 20px;
+  
+  height: 20px;
+  width: 100%;
+  color: white;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  
+}
+h1{
+  color: black;
+}
+
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+.baris {
+  width: 100%;
+  min-height:200px;
+  display: flex;
+}
+.kolom {
+  width: 50%;
+  height: 100%;
+  background-color: azure;
+  padding-left: 20px;
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.pengajar {
+  text-align: center;
+  background-color:blue;
+  padding: 80px 40px;
+}
+
+.pengajar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.pengajar-item {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pengajar-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.carousel{
+  background-color: darkturquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto;
+  width:80% ;
+  border-radius: 8px;
+}
+.image-placeholfer{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-placeholfer img{
+  width: 100%;
+  height: auto;
+  border:  2px solid #000;
+  border-radius: 8px;
+  margin: auto;
+}
+.description{
+  width: 65%;
+  font-size:16px ;
+  color:#333;
+  padding: 20px;
+}
+.contact{
+  padding: 40px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.form{
+  width: 50%;
+}
+form infut,form textared{
+  width: 100px;
+  padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #2bffea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: pink;
+}
+
+.social-media {
+    width: 30%;
+    text-align: left;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media p a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2bffea;
+}
